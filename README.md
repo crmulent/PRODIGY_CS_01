@@ -10,7 +10,21 @@ Encrypting a plaintext
 python caesar.py -e <text> -k <key>
 ```
 
+Example
+```
+python caesar.py -e "Hi Mom!" -k 13
+
+Uv Zbz!
+```
+
 Decrypting a ciphertext
 ```
 python caesar.py -d <text> -k <key>
+```
+
+Example
+```
+python caesar.py -d "Uv Zbz!" -k 13
+
+Hi Mom!
 ```
